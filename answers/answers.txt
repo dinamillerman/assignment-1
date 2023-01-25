@@ -1,0 +1,10 @@
+1) mkdir answers
+2) touch answers.txt
+3) nano answers.txt
+4) /c/Users/Dina/assignment-1/answers/answers.txt
+5) ls -a
+6) ___
+7) rm is dangerous because it permanently deletes the specified file or
+   directory. If you accidentally used rm on a big folder of data files, you
+   would permanently lose the data you had hoped to work with.
+8)

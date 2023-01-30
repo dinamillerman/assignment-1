@@ -7,4 +7,7 @@
 7) rm is dangerous because it permanently deletes the specified file or
    directory. If you accidentally used rm on a big folder of data files, you
    would permanently lose the data you had hoped to work with.
-8)
+8) mkdir -p answers/results 
+9) touch my_script.sh
+10)????
+11)

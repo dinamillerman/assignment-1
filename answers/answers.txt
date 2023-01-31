@@ -3,11 +3,19 @@
 3) nano answers.txt
 4) /c/Users/Dina/assignment-1/answers/answers.txt
 5) ls -a
-6) ___
+6) You can use the command ls and then list the name of the directory after 
+   it. So the command "ls data" would list the contents of data even if we 
+   weren't in it. 
 7) rm is dangerous because it permanently deletes the specified file or
    directory. If you accidentally used rm on a big folder of data files, you
    would permanently lose the data you had hoped to work with.
 8) mkdir -p answers/results 
 9) touch my_script.sh
-10)????
-11)
+10)chmod 775 my_script.sh
+11)cd ../assignment-1-main-main/data
+12)wc -w * | sort -rn | head -n 3 ?????
+13)
+14)mkdir unzipped_files | unzip “annual_aqi_by_county” | mv 
+   annual_aqi_by_county*.csv unzipped_files
+15)rm *.zip
+16)

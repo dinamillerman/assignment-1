@@ -13,9 +13,12 @@
 9) touch my_script.sh
 10)chmod 775 my_script.sh
 11)cd ../assignment-1-main-main/data
-12)wc -w * | sort -rn | head -n 3 ?????
-13)
+12)wc -w * | sort -rn | head -n 3 | tail -n 1
+13)for filename in *.csv
+> do
+> /c/Users/Dina/assignment-1/my_script.sh *.csv
+> done
 14)mkdir unzipped_files | unzip “annual_aqi_by_county” | mv 
    annual_aqi_by_county*.csv unzipped_files
 15)rm *.zip
-16)
+16)cp *200* /c/Users/Dina/assignment-1/answers/results
